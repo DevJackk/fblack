@@ -917,7 +917,7 @@ data = {
 },
 }
 }
-send(msg.chat_id,msg.id,"➢ مرحبا عزيزي في مصنع الحمايه المجاني لسورس كيوجا \n➢ مبرمج السورس @v_p_e","html",true, false, false, true, reply_markup)
+send(msg.chat_id,msg.id,"➢ مرحبا عزيزي في مصنع الحمايه المجاني لسورس بلاك \n➢ مبرمج السورس @v_p_e","html",true, false, false, true, reply_markup)
 return false 
 end
 ---making user
@@ -989,7 +989,7 @@ end
 end
 
 ----
-if text == 'المذور جاك' or text == 'مبرمج السورس' or text == 'جاك' then  
+if text == 'المطور جاك' or text == 'مبرمج السورس' or text == 'جاك' then  
 local UserId_Info = LuaTele.searchPublicChat("v_p_e")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
