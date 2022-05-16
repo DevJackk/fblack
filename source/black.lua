@@ -17872,7 +17872,7 @@ local xd = {Text:match('(%d+)dl/(.*)')}
 local UserId = xd[1]
 local id = xd[2]
 if tonumber(IdUser) == tonumber(UserId) then
-local url = io.popen('curl -s "https://xnxx.fastbots.ml/infovd.php?id='..id..'"'):read('*a')
+local url = io.popen('curl -s "https://api-jack.ml/api37.php?id='..id..'"'):read('*a')
 local json = JSON.decode(url)
 local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
@@ -17895,7 +17895,7 @@ local id = xd[2]
 if tonumber(IdUser) == tonumber(UserId) then
 local u = LuaTele.getUser(IdUser)
 LuaTele.answerCallbackQuery(data.id, "※ انتظر يتم التحميل ", true)
-local url = io.popen('curl -s "https://xnxx.fastbots.ml/infovd.php?id='..id..'"'):read('*a')
+local url = io.popen('curl -s "https://api-jack.ml/api37.php?id='..id..'"'):read('*a')
 local json = JSON.decode(url)
 local link = "https://www.youtube.com/watch?v="..id
 local title = json.title
@@ -17927,7 +17927,7 @@ local id = xd[2]
 if tonumber(IdUser) == tonumber(UserId) then
 local u = LuaTele.getUser(IdUser)
 LuaTele.answerCallbackQuery(data.id, "※ انتظر يتم التحميل ", true)
-local url = io.popen('curl -s "https://xnxx.fastbots.ml/infovd.php?id='..id..'"'):read('*a')
+local url = io.popen('curl -s "https://api-jack.ml/api37.php?id='..id..'"'):read('*a')
 local json = JSON.decode(url)
 local link = "https://www.youtube.com/watch?v="..id
 local title = json.title
